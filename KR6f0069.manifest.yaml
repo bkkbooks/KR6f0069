@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6f0069/v1
+canonical_location: https://kanripo.org/bkk/KR6f0069/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 無量壽經義記卷下
+  identifiers:
+    alt_id:
+    - T85n2759
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2759.xml
+    old_id: T85n2759
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0069_000.yaml, hash: 'sha256:f3e7b25911389f521df0809e73e405003b5a05bc34e72702f6c4e79ecbeb58b2'}
+  - {seq: 1, filename: KR6f0069_001.yaml, hash: 'sha256:13db70155ffcd3eb0b9c57afb20a3a94b1cba475ab69a900246c34ed863f9559'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6f0069_001.markers.yaml, hash: 'sha256:1955dc8bd13e7bf652ec8391a5b1054b6293e2b7f25727ee7d9f46c11420f038'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0069_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 13489
+  label: 無量壽經義記下卷
+  type: juan
+  level: 1
+hash: sha256:8ce8723617b5959a9af7e57f6181387b2eb93db39b2d37df10f1e0a84c35a8c5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
