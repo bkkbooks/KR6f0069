@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6f0069_000.yaml, hash: 'sha256:f3e7b25911389f521df0809e73e405003b5a05bc34e72702f6c4e79ecbeb58b2'}
-  - {seq: 1, filename: KR6f0069_001.yaml, hash: 'sha256:13db70155ffcd3eb0b9c57afb20a3a94b1cba475ab69a900246c34ed863f9559'}
+  - {seq: 1, filename: KR6f0069_001.yaml, hash: 'sha256:c105c5381f1e51a2791f6387ba9774be3eb64bfb3da88fb8ab6fb29ccc52b5cc'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6f0069_001.markers.yaml, hash: 'sha256:1955dc8bd13e7bf652ec8391a5b1054b6293e2b7f25727ee7d9f46c11420f038'}
+  - {seq: 0, role: markers, filename: assets/KR6f0069_000.markers.yaml, hash: 'sha256:2869eb80f35e2fccb62bdb248c7e344a5096a55e50589bf7f79b3b8a412b479f'}
+  - {seq: 1, role: markers, filename: assets/KR6f0069_001.markers.yaml, hash: 'sha256:978c0ed8bb15a91f1882f9a5696115f7ac407a70b36148e898ed856f80eb9009'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 無量壽經義記下卷
   type: juan
   level: 1
-hash: sha256:8ce8723617b5959a9af7e57f6181387b2eb93db39b2d37df10f1e0a84c35a8c5
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5355818e0a68f4f1faa9928ce55e20314999a360113d20d0fa5c2aeae4df9c71
